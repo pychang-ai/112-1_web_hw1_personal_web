@@ -1,0 +1,127 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Songti', 'Microsoft YaHei', 'SimHei', sans-serif;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+header {
+    background-color: black;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    display: inline;
+    margin-right: 3vw;
+}
+
+header ul {
+    position: absolute;
+    right: 1vw;
+    top: 1;
+    line-height: 70px;
+}
+
+header h1 {
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 0;
+    line-height: 140px;
+    letter-spacing: 3px;
+    font-size: 60px;
+}
+
+header ul a:hover {
+    text-decoration: underline;
+    color:rgb(114, 203, 233);
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+footer {
+    background-color: black;
+    color: gray;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.menu {
+    text-decoration: underline;
+    display: none;
+}
+
+li .this{
+    color:rgb(114, 203, 233);
+    text-decoration: underline;
+}
+/* 響應式設計 */
+@media screen and (max-width: 1080px) {
+    header ul {
+        display: none; /* 隱藏列表 */
+    }
+
+    header h1 {
+        left: 50%; /* 左邊距離 */
+        transform: translateX(-50%); /* 水平居中 */
+    }
+
+    .news h2 {
+        font-size: 40px; /* 字體大小 */
+    }
+
+    .menu {
+        display: block; /* 顯示區塊 */
+        background-color: transparent; /* 背景透明 */
+        color: white; /* 文字顏色 */
+        font-size: 35px; /* 字體大小 */
+        position: absolute; /* 絕對定位 */
+        top: 15px; /* 上邊距離 */
+        left: 20px; /* 左邊距離 */
+        border: none; /* 去除邊框 */
+        text-decoration: none;
+        cursor: pointer; /* 滑鼠指標形狀 */
+    }
+}
+@media screen and (max-width: 570px) {
+
+    header ul {
+        display: none; /* 隱藏列表 */
+    }
+
+    header h1 {
+        left: 50%; /* 左邊距離 */
+        transform: translateX(-50%); /* 水平居中 */
+        font-size: 47px;
+    }
+
+    .news h2 {
+        font-size: 40px; /* 字體大小 */
+    }
+
+    .menu {
+        display: block; /* 顯示區塊 */
+        background-color: transparent; /* 背景透明 */
+        color: white; /* 文字顏色 */
+        font-size: 35px; /* 字體大小 */
+        position: absolute; /* 絕對定位 */
+        top: 15px; /* 上邊距離 */
+        left: 20px; /* 左邊距離 */
+        border: none; /* 去除邊框 */
+        text-decoration: none;
+        cursor: pointer; /* 滑鼠指標形狀 */
+    }
+}

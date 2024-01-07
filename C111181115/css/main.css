@@ -1,0 +1,50 @@
+.top {
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    
+}
+
+.img {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 60px;
+    width: 80px;
+    height: 80px;
+}
+
+.font{
+    background-image: url(../images/bhappy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 85vw;
+    position: relative;
+    left:7vw;
+}
+
+.font a {
+    font-size: 40px;
+    color: white;
+}
+
+.bg {
+    display: flex;
+    height: 150px;
+    width: 50vw;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    border: 5px white solid;
+}

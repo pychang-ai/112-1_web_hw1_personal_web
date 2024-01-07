@@ -1,0 +1,51 @@
+/* 額外樣式 */
+li .this {
+    color:rgb(114, 203, 233);
+    text-decoration: underline;
+}
+
+.selfie {
+    margin-top: 20px; /* 上邊距離 */
+    border-radius: 50%; /* 圓角 */
+    max-width: 80%; /* 最大寬度為父元素的80% */
+    height: auto; /* 自動計算高度，保持原始比例 */
+    border: black solid 0.5px; /* 邊框樣式 */
+}
+
+
+.ff {
+    font-weight: bold; /* 字體粗細 */
+    font-size: 45px; /* 字體大小 */
+    background: transparent; /* 背景透明 */
+    border: none; /* 去除邊框 */
+}
+
+/* 區塊樣式 */
+.mid-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.s1 {
+    color: white;
+}
+
+.mid-left {
+    background-color: aqua;
+    height: 85vh;
+    width: 15vw;
+}
+
+.mid-right {
+    background-color: aquamarine;
+    height: 85vh;
+    width: 55vw;
+}
+
+.page-main {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
