@@ -1,0 +1,44 @@
+<style>
+    li {
+        list-style-type: decimal;
+    }
+
+    #myUL1 li {
+        /*子孫選擇器*/
+        list-style-type: circle;
+    }
+
+    #myUL2>li {
+        /*子選擇器*/
+        list-style-type: lower-alpha;
+    }
+</style>
+
+
+<ul>
+    <li>A</li>
+    <ul id='myUL1'>
+        <li>A-1</li>
+        <li>A-2</li>
+        <ul>
+            <li>A-2-1</li>
+            <li>A-2-2</li>
+        </ul>
+        <li>A-3</li>
+    </ul>
+    <li>B</li>
+</ul>
+
+<ul>
+    <li>A</li>
+    <ul id='myUL2'>
+        <li>A-1</li>
+        <li>A-2</li>
+        <ul>
+            <li>A-2-1</li>
+            <li>A-2-2</li>
+        </ul>
+        <li>A-3</li>
+    </ul>
+    <li>B</li>
+</ul>
