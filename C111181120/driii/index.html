@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-AU">
+<head>
+  <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta name="author" content="pat" />
+  <meta name="keywords" content="drifting, pat, OWD" />
+  <meta name="description" content="OWD winter template" />
+  <title>drifting v1.0</title>
+
+  <link rel="stylesheet" type="text/css" href="css/drifting_screen.css" media="screen, tv, projection" />
+  <link rel="stylesheet" type="text/css" href="css/drifting_print.css" media="print" />
+</head>
+
+<body>
+
+<!-- Layout container starts -->
+<div id="layoutBox">
+
+  <!-- HEADER: controls the header layout, images, title and subTitle. -->
+  <div id="headerBox">
+    <div id="headerLeftBox">
+      <span class="title">
+      我是劉宥廷
+      </span>
+      <br />
+      <span class="subTitle">
+      
+      </span>
+    </div>
+    <div id="headerRightBox">
+      &nbsp;
+    </div>
+  </div>
+
+  <!-- MENU: include as many submenus as you want.  Menu groups should begin with a
+       <h1> and then all menu links need to be defined in a <div class="menuGroup">.
+       The <span class="noDisplay"> | </span> after each link only needs to be included
+       if this site will be loaded in a text only browser -->
+  <div id="menuBox">
+    <h1>
+      info
+    </h1>
+    <div class="menuGroup">
+      <a href="#origins" title="how it started"><img src="images/menu_icon.gif" alt="menu item 1" /> origins</a><span class="noDisplay"> | </span>
+      <a href="#template" title="about the template"><img src="images/menu_icon.gif" alt="menu item 2" /> template</a><span class="noDisplay"> | </span>
+      <a href="#next" title="what's next?"><img src="images/menu_icon.gif" alt="menu item 3" /> next</a><span class="noDisplay"> | </span>
+      <a href="http://openwebdesign.org/userinfo.phtml?user=snop" title="OWD profile / contact"><img src="images/menu_icon.gif" alt="menu item 4" /> contact</a><span class="noDisplay"> | </span>
+    </div>
+
+    <h1>
+      平常會用的網站
+    </h1>
+    <div class="menuGroup">
+      <a href="https://www.youtube.com/" title="mmmm art"><img src="images/menu_icon.gif" alt="menu item 1" /> youtube</a><span class="noDisplay"> | </span>
+      <a href="https://www.ilovepdf.com/zh-tw" title="vector and design work"><img src="images/menu_icon.gif" alt="menu item 2" /> ilovepdf</a><span class="noDisplay"> | </span>
+      <a href="https://www.steamkobo.com/" title="information design"><img src="images/menu_icon.gif" alt="menu item 3" /> steamkobo</a><span class="noDisplay"> | </span>
+    </div>
+
+    <!-- NEWS: define news chunks in <p> and use <h2> for the date/title -->
+    <h1>
+      節日
+    </h1>
+    <div class="newsGroup">
+      <h2>10.31</h2>
+      <p>
+        萬聖節
+      </p>
+      <h2>12.25</h2>
+      <p>
+        聖誕節
+      </p>
+      <h2>10.10</h2>
+      <p>
+       國慶日
+      </p>
+    </div>
+
+    <!-- MENU FOOTER: could include a site search field here -->
+    <div class="menuFooter">
+      &nbsp;
+    </div>
+
+  </div>
+
+  <!-- MAIN CONTENT : to add new headings, include a <h1> and then as many <p> blocks
+       as you'd like.  <h2> will create subheadings. To finish a section, include a
+       <br/> to clearly define it. -->
+  <div id="mainContent">
+    <a name="自我介紹"></a>
+    <h1>自我介紹</h1>
+    <h3> <p> 生日:2003.11.29</p> <p>興趣:打籃球 玩電腦 聽音樂</h3> 
+     </p>
+    <br/>
+
+    <a name="關於我"></a>
+    <h1>關於我</h1>
+    <img src="images/tim.png" alt="image example" width="201" height="250" title="image example" class="imgRight"/>
+    <p>
+      我叫劉宥廷，我現在就讀國立高雄科技大學，海事資訊科技系二年甲班，平常比較不喜歡講話。
+    </p>
+    <ul>
+      <li><a href="https://www.instagram.com/?hl=zh-tw" title="download Firefox">instagram</a></li>
+      <li><a href="https://www.facebook.com/" title="download Netscape">facebook</a></li>
+      <li><a href="https://www.twitch.tv/" title="download Opera">twitch</a></li>
+      <li><a href="https://smallpdf.com/zh-TW/pdf-converter" title="download Internet Explorer">smallpdf</a></li>
+    </ul>
+    <h2></h2>
+    <p>
+      
+    <br />
+
+    <a name="學過的程式"></a>
+    <h1>學過的程式</h1>
+    <p>
+      學過的程式有:C、python、Visual Basic、MATLAB。
+      </p>
+      <p>
+      雖然學過很多種程式，但我還是很樂意學習更多其他的東西。
+    </p>
+    <br />
+
+   
+   
+
+  <!-- BUG FIX: This corrects another IE rendering bug....  You notice it only when the menu container length is
+       greater than the main content container.  Without this, when an a:hover is triggered in the main container,
+       IE reflows the page and cuts off the menu at the bottom of the main container. -->
+  <div class="spacer">
+  </div>
+
+</div>
+<!-- Layout container ends -->
+
+</body>
+</html>
